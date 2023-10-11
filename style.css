@@ -76,8 +76,7 @@ button:hover {
 
 .top {
   height: calc(100vw - 80vw);
-
-  /* display: absolute; */
+  margin-bottom: 60px;
 }
 
 .bottom {
@@ -90,11 +89,6 @@ button:hover {
   align-items: center;
   height: 200px;
   margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-.main-elements {
-  padding-bottom: 60px;
 }
 
 .city-name {
@@ -103,6 +97,7 @@ button:hover {
 
 .photo {
   display: block;
+  padding-left: 30px;
 }
 
 .headings,
