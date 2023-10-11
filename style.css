@@ -86,14 +86,23 @@ button:hover {
 
 .main-info {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 200px;
   margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.main-elements {
+  padding-bottom: 60px;
 }
 
 .city-name {
   font-size: 40px;
+}
+
+.photo {
+  display: block;
 }
 
 .headings,
@@ -107,14 +116,6 @@ button:hover {
   width: 33.3%;
   text-align: center;
 }
-
-/* .headings {
-  height: 35%;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-} */
 
 .weather-info {
   height: 65%;
